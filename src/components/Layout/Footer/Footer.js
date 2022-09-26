@@ -10,7 +10,7 @@ const LayoutFooter = () => (
 					<li><a href="https://www.linkedin.com/in/samabos/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+				{/*	<li>&copy; Untitled</li>*/}<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</div>
 		</footer>

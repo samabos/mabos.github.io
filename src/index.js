@@ -1,15 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+} from "react-router-dom";
 import App from './components/app/App';
-import Layout from './components/Layout/Layout';
+import AboutMe from './components/AboutMe/AboutMe';
+import Induction from './components/Induction/Induction';
+import TDP from './components/TDP/TDP';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Layout>
-            <App />
-        </Layout>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<App />} />
+                <Route path="aboutme" element={<AboutMe />} />
+                <Route path="induction" element={<Induction />} />
+                <Route path="tdp" element={<TDP />} />
+            </Routes>
+        </BrowserRouter>
   </React.StrictMode>
 );
 

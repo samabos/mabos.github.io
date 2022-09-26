@@ -232,8 +232,11 @@
 		});
 
 	// Menu.
-		var $menu = $('#menu'),
-			$menuInner;
+	
+	//console.log($body.html());
+	var $menu = $('#menu'), $menuInner;
+
+	
 
 		$menu.wrapInner('<div class="inner"></div>');
 		$menuInner = $menu.children('.inner');
@@ -308,28 +311,28 @@
 			})
 			.append('<a class="close" href="#menu">Close</a>');
 
-		$body
-			.on('click', 'a[href="#menu"]', function(event) {
+	$body
+		.on('click', 'a[href="#menu"]', function (event) {
 
-				event.stopPropagation();
-				event.preventDefault();
+			event.stopPropagation();
+			event.preventDefault();
 
-				// Toggle.
-					$menu._toggle();
+			// Toggle.
+			$menu._toggle();
 
-			})
-			.on('click', function(event) {
+		})
+		.on('click', function (event) {
 
-				// Hide.
-					$menu._hide();
+			// Hide.
+			$menu._hide();
 
-			})
-			.on('keydown', function(event) {
+		})
+		.on('keydown', function (event) {
 
-				// Hide on escape.
-					if (event.keyCode == 27)
-						$menu._hide();
+			// Hide on escape.
+			if (event.keyCode == 27)
+				$menu._hide();
 
-			});
+		});
 
 })(jQuery);

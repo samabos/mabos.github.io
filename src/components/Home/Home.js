@@ -1,11 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Home.css';
+import Banner from '../Banner/Banner';
+import Modules from '../Modules/Modules';
+import { Link } from "react-router-dom";
 
 const Home = () => (
 
 
-<div id="main" className="Home">
+	<div id="main" className="Home">
+
+		<Banner />
 			<section id="two">
 				<div class="inner">
 					<header class="major">
@@ -28,30 +33,7 @@ const Home = () => (
 					</ul>
 				</div>
 			</section>
-
-
-			<section id="one" class="tiles">
-				<article>
-					<span class="image">
-						<img src="images/pic01.jpg" alt="" />
-					</span>
-					<header class="major">
-						<h3><a href="Launch Module.html" class="link">Induction Module</a></h3>
-						<p>Introductory module</p>
-					</header>
-				</article>
-				<article>
-					<span class="image">
-						<img src="images/pic02.jpg" alt="" />
-					</span>
-					<header class="major">
-						<h3><a href="Module 2.html" class="link">The Data Professional</a></h3>
-						<p>Exploring the critical theoretical concepts in the discipline of data science.</p>
-					</header>
-				</article>
-
-			</section>
-
+		<Modules />
 		</div>
 
 );
