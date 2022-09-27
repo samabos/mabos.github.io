@@ -6,7 +6,7 @@ const Contact = () => (
 		<section id="contact" className="Contact">
 			<div class="inner">
 				<section>
-					<form method="post" action="#">
+				<form method="post" action="https://formspree.io/f/moqbdzwe">
 						<div class="fields">
 							<div class="field half">
 								<label for="name">Name</label>

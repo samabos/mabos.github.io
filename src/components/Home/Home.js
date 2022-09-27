@@ -29,7 +29,7 @@ const Home = () => (
 
 					</p>
 					<ul class="actions">
-						<li><a href="About.html" class="button">Learn more</a></li>
+					<li><Link to="/aboutme" class="button">Learn more</Link></li>
 					</ul>
 				</div>
 			</section>
