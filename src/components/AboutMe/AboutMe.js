@@ -52,7 +52,38 @@ const AboutMe = () => (
 							<header class="major">
 								<h3>Work History</h3>
 							</header>
-							<p>Coming soon...</p>
+							<table>
+								<tr>
+									<td width="20%">2021-To Date</td>
+									<td>
+										<strong>Solution Delivery Manager</strong><br />
+										Bizqore Consulting (Nigeria)
+									</td>
+								</tr>
+								<tr>
+									<td width="20%">2020-2021</td>
+									<td>
+										<strong>Software Engineer & AI Consultant
+											</strong><br />
+										Palmview Technologies Limited (Nigeria)
+									</td>
+								</tr>
+								<tr>
+									<td width="20%">2016-2020</td>
+									<td>
+										<strong>Head Solution Delivery </strong><br />
+										West Blue Ghana Limited (Ghana)
+									</td>
+								</tr>
+								<tr>
+									<td width="20%">2013-2015</td>
+									<td>
+										<strong>Software Developer</strong><br />
+										West Blue Consulting (Nigeria)
+									</td>
+								</tr>
+								
+							</table>
 						</div>
 					</div>
 				</section>

@@ -25,13 +25,13 @@ const Induction = () => (
 					<header class="major">
 						<h2>Learning Outcomes</h2>
 					</header>
-					<p>I will learn:</p>
+					{/*<p>I will learn:</p>*/}
 					
-					{/*<ul>*/}
-					{/*	<li>Dolor etiam magna etiam.</li>*/}
-					{/*	<li>Sagittis lorem eleifend.</li>*/}
-					{/*	<li>Felis dolore viverra.</li>*/}
-					{/*</ul>*/}
+					<ul>
+						<li>Demonstrate the technical and personal requirements of online learning.</li>
+						<li>Demonstrate competencies in the use of the tools available to online learners.</li>
+						<li>Demonstrate academic skills, e.g. essay/report writing, research techniques, referencing, reflective learning and critical thinking at a level commensurate with Postgraduate study.</li>
+					</ul>
 				</div>
 			</section>
 
@@ -45,10 +45,14 @@ const Induction = () => (
 							<header class="major">
 								<h3>Artefacts</h3>
 							</header>
-							<p>These are the projects carried out to meet those learning outcomes, which are described in the link below.</p>
-							{/*<ul class="actions">*/}
-							{/*	<li><a href="generic.html" class="button">Learn more</a></li>*/}
-							{/*</ul>*/}
+							<ol>
+								<li><p>Group discussion on the use of e-portfolios in a postgraduate degree programme</p></li>
+								<li><p>Essay on the following topic: <strong>Discuss the importance of a postgraduate degree in the Computer Science field</strong>.</p>
+									<ul class="actions">
+										<li><a href="/assets/Induction_Assignment.docx" class="button">Download My Paper</a></li>
+									</ul></li>
+							</ol>
+							
 						</div>
 					</div>
 				</section>
