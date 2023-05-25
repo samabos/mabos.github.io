@@ -11,6 +11,7 @@ const Header = () => (
 			<Link to="/aboutme">About Me</Link>
 			<Link to="/induction">Induction</Link>
 			<Link to="/tdp">TDP</Link>
+			<Link to="/Na">Numerical Analysis</Link>
 		</nav>
 	</header>
 );

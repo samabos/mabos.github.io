@@ -1,9 +1,10 @@
 ﻿import React from 'react';
 import PropTypes from 'prop-types';
-import Layout from '../Layout/Layout';
+import TDP from './TDP';
 
 const Week1_3 = () => (
-	<div id="main">
+	<TDP>
+		<div id="main">
 		<section id="two">
 			<div class="inner">
 				<header class="major">
@@ -123,7 +124,8 @@ const Week1_3 = () => (
 				</div>
 			</section>
 		</section>
-    </div>
+		</div>
+	</TDP>
 );
 
 Week1_3.propTypes = {};
