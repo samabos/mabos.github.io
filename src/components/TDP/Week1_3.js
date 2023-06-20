@@ -70,6 +70,7 @@ const Week1_3 = () => (
 
 			</div>
 		</section>
+		
 		<section id="two" class="spotlights">
 			<section>
 				<a href="generic.html" class="image">
