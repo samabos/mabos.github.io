@@ -15,6 +15,10 @@ import reportWebVitals from './reportWebVitals';
 import NA from './components/NA/NA';
 import NAWeek1_3 from './components/NA/Week1_3';
 import NAWeek4_6 from './components/NA/Week4_6';
+import BigData from './components/BigData/BigData';
+import BDHome from './components/BigData/BDHome';
+import BDWeek1 from './components/BigData/BDWeek1';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,6 +34,9 @@ root.render(
                 <Route path="na" element={<NA />} />
                 <Route path="naweek1_3" element={<NAWeek1_3 />} />
                 <Route path="naweek4_6" element={<NAWeek4_6 />} />
+                <Route path="bigdata" element={<BigData />} />
+                <Route path="bdhome" element={<BDHome />} />
+                <Route path="bdweek1" element={<BDWeek1 />} />
             </Routes>
         </BrowserRouter>
   </React.StrictMode>

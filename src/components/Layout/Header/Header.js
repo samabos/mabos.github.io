@@ -6,12 +6,13 @@ import './Header.css';
 const Header = () => (
 	<header id="header" class="alt {this.props.style}" className="Header">
 		<Link to="/" class="logo"><span>Abiodun Maborukoje</span></Link>
-		<nav>
+		<nav className='nav nav-pills'>
 			{/*	<a href="#menu">Menu</a>*/}
 			<Link to="/aboutme">About Me</Link>
 			<Link to="/induction">Induction</Link>
 			<Link to="/tdp">TDP</Link>
-			<Link to="/Na">Numerical Analysis</Link>
+			<Link to="/na">Numerical Analysis</Link>
+			<Link to="/bigdata">Big Data</Link>
 		</nav>
 	</header>
 );
