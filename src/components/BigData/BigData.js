@@ -28,6 +28,7 @@ class BigData extends React.Component {
                             <ul class="actions">
                                 <li><Link class="button" to="/BDHome">Module Home</Link></li>
                                 <li><Link class="button" to="/BDWeek1">Unit 1</Link></li>
+                                <li><Link class="button" to="/BDWeek3">Unit 3</Link></li>
                             </ul></div>
 					</div>
 				</section>
