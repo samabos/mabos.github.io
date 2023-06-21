@@ -16,7 +16,7 @@ class Na extends React.Component {
 	<Layout>
 		<div id="main">
 
-				<section id="banner" class="style3">
+				<section id="banner" class="style2">
 					<div class="inner">
 						<span class="image">
 							<img src="/assets/images/pic07.jpg" alt="" />

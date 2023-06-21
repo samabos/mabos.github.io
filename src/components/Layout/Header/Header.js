@@ -9,7 +9,7 @@ const Header = () => (
 		<nav className='nav nav-pills'>
 			{/*	<a href="#menu">Menu</a>*/}
 			<Link to="/aboutme">About Me</Link>
-			<Link to="/induction">Induction</Link>
+			{/*<Link to="/induction">Induction</Link> */}
 			<Link to="/tdp">TDP</Link>
 			<Link to="/na">Numerical Analysis</Link>
 			<Link to="/bigdata">Big Data</Link>

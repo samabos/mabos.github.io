@@ -14,7 +14,7 @@ class BigData extends React.Component {
 		return (
 	<Layout>
 		<div id="main">
-				<section id="banner" className="style5">
+				<section id="banner" className="style3">
 					<div class="inner">
 						<header class="major">
 							<h1>Deciphering Big Data Module</h1>
