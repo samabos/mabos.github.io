@@ -11,8 +11,6 @@ import BigData from './BigData';
 const BDHome = () => (
 	<BigData>
     <div id="main">
-        
-				
                 <section id="two">
 			<div class="inner">
 				<header class="major">

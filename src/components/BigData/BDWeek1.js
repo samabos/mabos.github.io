@@ -14,7 +14,7 @@ const BDWeek1 = () => (
     <section id="two">
         <div class="inner">
             <header class="major">
-                <h2>Collaborative Discussion On The Data Collection Process</h2>
+                <h2>Unit 1: Collaborative Discussion On The Data Collection Process</h2>
             </header>
             <h3>Learning Outcomes</h3>
             <ul>
@@ -23,10 +23,7 @@ const BDWeek1 = () => (
                     and techniques (involving preparing, cleaning, exploring, creating, optimising and evaluating big data) to solve them.</li>
 
             </ul>
-        </div>
-    </section>
-    <section id="four">
-        <div class="inner">
+    
             <header class="major">
                 <h3>Artefacts</h3>
             </header>

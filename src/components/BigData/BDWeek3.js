@@ -14,7 +14,7 @@ const BDWeek3 = () => (
     <section id="two">
         <div class="inner">
             <header class="major">
-                <h2>Data Collection and Storage</h2>
+                <h2>Unit 3: Data Collection and Storage</h2>
             </header>
             <h3>Learning Outcomes</h3>
             <ul>
@@ -22,10 +22,7 @@ const BDWeek3 = () => (
                 <li>Conduct fact finding and fact checking.</li>
                 <li>Understand the applicability of web services.</li>
             </ul>
-        </div>
-    </section>
-    <section id="four">
-        <div class="inner">
+       
             <header class="major">
                 <h3>Artefacts</h3>
             </header>
@@ -34,7 +31,7 @@ const BDWeek3 = () => (
             <p>A user agent header can be added to the requests module to help simulate a browser request and prevent potential blocking or limits imposed by the website. This is significant, as I discovered after attempting to scrape data from sites such as Indeed.com.</p>
             <p>Note: It&apos;s also a good idea to go over the terms of service and policies of the website to ensure that your scraping activities are allowed and that you are not violating any rules.</p>
              
-            <a href='/assets/webscrappingexercise.ipynb' download>Download Notebook</a>
+            <a href='/webscrappingexercise.ipynb' download>Download Notebook</a>
             <p></p>
             <p>Results:</p>
              <img width='100%' src='/assets/images/Screenshot2023-06-21043056.png'></img>      
