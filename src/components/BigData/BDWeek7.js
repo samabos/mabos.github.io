@@ -473,6 +473,9 @@ const BDWeek7 = () => (
                 <h3>Data Build Task</h3>
             </header>
             <a href='/sqlscript.sql' download>Download SQL Script</a>
+            <p>GitHub Repository: <a href='https://github.com/samabos/UoE-BigData-Module/blob/main/sqlscript.sql' target='blank'>https://github.com/samabos/UoE-BigData-Module/blob/main/sqlscript.sql</a></p>
+            
+            
         </div>
     </section>
     <section id="two" class="spotlights">
@@ -485,11 +488,9 @@ const BDWeek7 = () => (
                     <header class="major">
                         <h3>Reflections</h3>
                     </header>
-                    <p>During the process of this week&apos;s exercise on Data Cleaning and Transformation, I realized the importance of using Python for data cleaning, as well as the importance of standardizing data, normalizing it, and removing outliers where applicable.</p>
-                    <p>I was able to export data into an SQLite database file, structure code segments into Python functions, and learn the importance of code documentation.</p>
-                    <p>I faced some challenges while following the instructions in the textbook. It seems the Python version that was used in the textbook was older than what I used in the Google Collab environment. I was able to do some extra research on how to resolve this issue and later refactor the code where necessary to make it work. This cost me some time, but I gained some more technical knowledge.</p>
-                    <p>Finally, learning about data cleaning as a repetitive process is crucial since most data analysis tasks will be periodic. It is imperative to write a script to automate the data-cleaning phase for the same periodic dataset.</p>
-                   </div>
+                    <p>Throughout Unit 7, I found the task of constructing normalized tables and building a database to be highly relevant and valuable to my learning objectives. As someone aspiring to become a data professional, understanding how to transform a flat-file database model into a normalized one was crucial. In the first step, achieving the 1st Normal Form (1NF) by ensuring atomic values and removing repeating groups helped enhance data organization. The subsequent steps, particularly reaching the 3rd Normal Form (3NF) by addressing transitive dependencies, significantly improved data integrity and reduced redundancy. This hands-on experience allowed me to critically analyze data-wrangling problems and determine appropriate methodologies, tools, and techniques.</p>
+                    <p>The data build task further solidified my understanding of building a relational database model and its usability. By downloading and successfully executing the SQL script, I gained practical skills in database creation and evaluation. The entire unit helped me identify and manage challenges, security issues, risks, and limitations in data wrangling. I now have the expertise to specify relevant data attributes and tackle constraints associated with a dataset. </p>
+                    </div>
             </div>
         </section>
     </section>

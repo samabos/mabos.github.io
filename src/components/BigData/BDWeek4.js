@@ -31,7 +31,8 @@ const BDWeek4 = () => (
             <p>The following exercise was completed this week. The tasks or activities cover the learning objective above.</p>
             
             <a href='/UNDataCleanup.ipynb' download>Download Exercise Notebook</a>    
-
+            <p>GitHub Repository: <a href='https://github.com/samabos/UoE-BigData-Module/blob/main/UNDataCleanup.ipynb' target='blank'>https://github.com/samabos/UoE-BigData-Module/blob/main/UNDataCleanup.ipynb</a></p>
+            
         </div>
     </section>
     <section id="two" class="spotlights">

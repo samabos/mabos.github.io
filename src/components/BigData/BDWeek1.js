@@ -81,11 +81,9 @@ const BDWeek1 = () => (
                     <header class="major">
                         <h3>Reflections</h3>
                     </header>
-                    <p>Participating in this fruitful discussion about the future of data scientists with my colleagues has broadened my knowledge of the critical roles and responsibilities of a data scientist, as well as the ethics and expectations of the profession.
-                        To be a successful data scientist, you must have soft skills, statistical skills, mathematical skills, coding skills, and an understanding of the business domain.</p>
-                    {/*<ul class="actions">*/}
-                    {/*	<li><a href="generic.html" class="button">More Information here</a></li>*/}
-                    {/*</ul>*/}
+                    <p>Working on the collaborative discussion about the data collection process and its implications in the context of big data analytics and the Internet of Things (IoT) was an enlightening experience. The discussion highlighted the critical issues of privacy and security in the context of IoT. As data collection grows exponentially, there is a pressing need to protect sensitive information and prevent data breaches and misuse. Addressing privacy concerns, obtaining user consent, and establishing clear regulations are essential to building trust in IoT technologies. Also, managing the sheer volume of data and ensuring its quality for meaningful insights require advanced analytics tools and scalable infrastructure.</p>
+
+                    <p>This collaborative discussion provided me with a comprehensive understanding of the opportunities and challenges in data wrangling, specifically related to big data and IoT. It emphasized the significance of data security, privacy, and ethical considerations when dealing with large datasets. I was able to critically analyse the limitations of IoT and the importance of finding solutions to address them.</p>
                 </div>
             </div>
         </section>
@@ -106,24 +104,7 @@ const BDWeek1 = () => (
         {/*	</div>*/}
         {/*</section>*/}
 
-        <section>
-            <a href="generic.html" class="image">
-                <img src="/assets/images/pic09.jpg" alt="" data-position="top center" />
-            </a>
-            <div class="content">
-                <div class="inner">
-                    <header class="major">
-                        <h2>Professional Skills Matrix and Action Plan</h2>
-                    </header>
-                    <p>Skills have I gained or enhanced as a result of this module.</p>
-                    <ul>
-                        <li>Master Data Management Skill</li>
-                        <li>Academic Writting Skill</li>
-                        <li>Referencing and Citation Skill</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+       
     </section>
     </div>
 	</BigData>

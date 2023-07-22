@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {
     BrowserRouter,
     Routes,
-    Route,
+    Route, HashRouter,
 } from "react-router-dom";
 import App from './components/app/App';
 import AboutMe from './components/AboutMe/AboutMe';
@@ -20,14 +20,16 @@ import BDHome from './components/BigData/BDHome';
 import BDWeek1 from './components/BigData/BDWeek1';
 import BDWeek3 from './components/BigData/BDWeek3';
 import BDWeek4 from './components/BigData/BDWeek4';
+import BDWeek6 from './components/BigData/BDWeek6';
 import BDWeek7 from './components/BigData/BDWeek7';
 import BDWeek8 from './components/BigData/BDWeek8';
+import BDWeek10 from './components/BigData/BDWeek10';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<App />} />
                 <Route path="aboutme" element={<AboutMe />} />
@@ -43,10 +45,12 @@ root.render(
                 <Route path="bdweek1" element={<BDWeek1 />} />
                 <Route path="bdweek3" element={<BDWeek3 />} />
                 <Route path="bdweek4" element={<BDWeek4 />} />
+                <Route path="bdweek6" element={<BDWeek6 />} />
                 <Route path="bdweek7" element={<BDWeek7 />} />
                 <Route path="bdweek8" element={<BDWeek8 />} />
+                <Route path="bdweek10" element={<BDWeek10 />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
   </React.StrictMode>
 );
 

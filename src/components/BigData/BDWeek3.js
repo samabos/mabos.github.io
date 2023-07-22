@@ -32,6 +32,7 @@ const BDWeek3 = () => (
             <p>Note: It&apos;s also a good idea to go over the terms of service and policies of the website to ensure that your scraping activities are allowed and that you are not violating any rules.</p>
              
             <a href='/webscrappingexercise.ipynb' download>Download Notebook</a>
+            <p>GitHub Repository: <a href='https://github.com/samabos/UoE-BigData-Module/blob/main/webscrappingexercise.ipynb' target='blank'>https://github.com/samabos/UoE-BigData-Module/blob/main/webscrappingexercise.ipynb</a></p>
             <p></p>
             <p>Results:</p>
              <img width='100%' src='/assets/images/Screenshot2023-06-21043056.png'></img>      
