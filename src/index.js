@@ -24,6 +24,8 @@ import BDWeek6 from './components/BigData/BDWeek6';
 import BDWeek7 from './components/BigData/BDWeek7';
 import BDWeek8 from './components/BigData/BDWeek8';
 import BDWeek10 from './components/BigData/BDWeek10';
+import BDWeek11 from './components/BigData/BDWeek11';
+import BDReflection from './components/BigData/BDReflection';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -49,6 +51,8 @@ root.render(
                 <Route path="bdweek7" element={<BDWeek7 />} />
                 <Route path="bdweek8" element={<BDWeek8 />} />
                 <Route path="bdweek10" element={<BDWeek10 />} />
+                <Route path="bdweek11" element={<BDWeek11 />} />
+                <Route path="bdreflection" element={<BDReflection />} />
             </Routes>
         </HashRouter>
   </React.StrictMode>
