@@ -1,8 +1,6 @@
 ﻿
 - 👋 Hi, I’m @samabos or simply Mabos
 - 👀 I’m interested in Software Engineering 
-- 🌱 I know C#, I’m currently learning Python
-- 💞️ I’m looking to collaborate on python project
 - 📫 How to reach me samaborukoje@gmail.com
 
 ## Portfolio HTML Template Reference
