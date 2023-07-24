@@ -28,13 +28,9 @@ const BDWeek6 = () => (
             <h4>Database Design Proposal</h4>
             <p>This design report presents the proposed database design for the Hotel Management System (HMS) of Dreamland Manor. The design aims to fulfil the requirements of the organization by providing an efficient system for managing hotel operations.
                 <br/> Find the full report at the GitHub repository below
-                <br/>GitHub Repository: <a href='https://github.com/samabos/UoE-BigData-Module/blob/main/Team3%20Database%20Report.pdf' target='blank'>https://github.com/samabos/UoE-BigData-Module/blob/main/Team3%20Database%20Report.pdf</a></p>
+                <br/>GitHub Repository: <a href='https://github.com/samabos/UoE-BigData-Module/blob/main/Team3%20Database%20Report.pdf' target='blank' class="button">Full Report, see here</a></p>
             
-            <h4>Team Minutes of Meeting</h4>
-            Find the team meeting notes at the GitHub repository below
-            <br/>
-            <p>GitHub Repository: <a href='https://github.com/samabos/UoE-BigData-Module/blob/main/Team3%20Meeting%20Minutes-1.pdf' target='blank'>https://github.com/samabos/UoE-BigData-Module/blob/main/Team3%20Meeting%20Minutes-1.pdf</a></p>
-            <hr/>
+          <hr/>
             <h4>Tutor Feedback</h4>
             <p>
                 Knowledge and understanding of the topic/ issues under consideration An very good demonstration of knowledge and understanding, displaying some originality and in-depth understanding in all key areas of knowledge relevant to the work. 
@@ -70,7 +66,25 @@ const BDWeek6 = () => (
  </p>
         </div>
     </section>
+    
+    
     <section id="two" class="spotlights">
+    <section>
+        <a href="#" class="image">
+            <img src="/assets/images/pic10.jpg" alt="" data-position="25% 25%" />
+        </a>
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>Meeting Notes</h3>
+                </header>
+                <p>Notes from various meetings, as well as feedback from team members.</p>
+                <ul class="actions">
+                    <li><a href='https://github.com/samabos/UoE-BigData-Module/blob/main/Team3%20Meeting%20Minutes-1.pdf' target='blank' class="button">For details, see here</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
         <section>
             <a href="#" class="image">
                 <img src="/assets/images/pic09.jpg" alt="" data-position="top center" />
@@ -86,6 +100,29 @@ const BDWeek6 = () => (
                     </div>
             </div>
         </section>
+    </section>
+    <section id="three">
+        <div class="inner">
+            <header class="major">
+                <h2>Professional Skills Matrix and Action Plan</h2>
+            </header>
+            <h4>Professional Skills Matrix</h4>
+<ul>
+  <li><strong>Database Design:</strong> Acquired knowledge and hands-on experience in designing efficient and secure databases, enabling me to create well-structured and organized data models.</li>
+  <li><strong>Literature Review:</strong> Developed skills in conducting comprehensive literature reviews to gather relevant information and best practices for database design and development.</li>
+  <li><strong>Collaboration:</strong> Improved collaboration and communication skills while working as part of a team.</li>
+</ul>
+
+<h4>Action Plan</h4>
+<ul>
+  <li><strong>Further Develop SQL Proficiency:</strong> To enhance my skills in working with databases, I plan to continue practicing SQL queries, focusing on complex operations and optimizing query performance.</li>
+  <li><strong>Data Security:</strong> As data security is critical in database design, I aim to delve deeper into data encryption techniques and best practices for safeguarding sensitive information.</li>
+  <li><strong>Advanced Data Modeling:</strong> To expand my data modeling skills.</li>
+  <li><strong>Project Management:</strong> Strengthening my project management skills will enable me to better organize tasks, timelines, and resources in future projects, ensuring smooth collaboration and successful outcomes.</li>
+  <li><strong>Data Extraction and Cleaning:</strong> I will further enhance my data extraction and cleaning skills by exploring various tools and techniques to efficiently process and prepare data for database integration.</li>
+  <li><strong>Real-World Data Application:</strong> Seek opportunities to work with real-world datasets from various domains to gain practical experience in applying database design principles to actual scenarios.</li>
+</ul>
+        </div>
     </section>
     </div>
 	</BigData>
